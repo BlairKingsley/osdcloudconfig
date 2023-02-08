@@ -13,13 +13,14 @@
             <UserAccounts>
                 <LocalAccounts>
                     <LocalAccount wcm:action="add">
+                        <Name>Test</Name>
+                        <Group>Administrators</Group>
+                        <DisplayName>Test</DisplayName>
+                        <Description>Test Account</Description>
                         <Password>
-                            <Value>YQBkAG0AaQBuAFAAYQBzAHMAdwBvAHIAZAA=</Value>
+                            <Value>VABlAHMAdABQAGEAcwBzAHcAbwByAGQA</Value>
                             <PlainText>false</PlainText>
                         </Password>
-                        <Name>admin</Name>
-                        <Group>Adminstrators</Group>
-                        <DisplayName>admin</DisplayName>
                     </LocalAccount>
                 </LocalAccounts>
             </UserAccounts>
