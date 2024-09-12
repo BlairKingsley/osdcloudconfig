@@ -28,6 +28,10 @@ Write-Host -ForegroundColor Green "Start OSDCloud"
 
 Start-OSDCloud -OSLanguage en-us -OSVersion 'Windows 11' -OSBuild 23H2 -OSEdition Enterprise -ZTI
 
+if(Test-Path X:\SCCMClient -PathType Container) {
+    Copy-Item X:\SCCMClient -Container -Destination C:\ 
+}
+
 #================================================
 #   PostOS
 #================================================
